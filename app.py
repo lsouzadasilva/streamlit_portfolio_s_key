@@ -31,6 +31,10 @@ with st.sidebar:
     # orientation = "horizontal"  < - Agora
 )
 
+st.sidebar.divider()
+st.sidebar.markdown("Desenvolvido por [Leandro Souza](https://br.linkedin.com/in/leandro-souza-313136190)")
+
+
 if paginas == "Sobre":
     pagina_inicial()
 elif paginas == "Projetos em Power BI":
