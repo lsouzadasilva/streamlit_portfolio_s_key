@@ -27,13 +27,16 @@ def streamlit():
         st.image(image_path_plotly_strem, caption="Relatorio de Faturamento", width=200)
         st.link_button("Acesse", 
                        "https://dashapp-test.streamlit.app/")
+        
 
     with col14:
+        st.image(image_path_plotly_strem, caption="Relatorio de Vendas", width=200)
+        st.link_button("Acesse",
+                       "https://dashappvendas.streamlit.app/")
+
+    with col15:
         st.image(image_path_fifa, caption="Fifa Oficial Dataset", width=200)
         st.link_button("Acesse",
                        "https://appfifaproject.streamlit.app/")
         
-    with col15:
-        st.image(image_path_plotly_strem, caption="Relatorio de Vendas", width=200)
-        st.link_button("Acesse",
-                       "https://dashappvendas.streamlit.app/")
+    
