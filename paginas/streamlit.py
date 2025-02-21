@@ -28,7 +28,6 @@ def streamlit():
         st.link_button("Acesse", 
                        "https://dashapp-test.streamlit.app/")
         
-
     with col14:
         st.image(image_path_plotly_strem, caption="Relatorio de Vendas", width=200)
         st.link_button("Acesse",
