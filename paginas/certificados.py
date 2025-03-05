@@ -1,7 +1,6 @@
 import streamlit as st
 
 def certificados_skills():
-    st.header("Certificados & Skills 🧙", divider=True)
     
     image_path_alura = "image/alura.png"
     image_path_google = "image/google_analytics.png"
@@ -12,6 +11,39 @@ def certificados_skills():
     image_power_bi = "image/power_bi.png"
     image_banco_sql = "image/CG-85A6168D.png"
     image_algoritimos = "image/e6300370-de67-4e28-9ec3-2ac959ac7b01.png"
+    
+    st.header("Minhas Skills 🧠", divider=True)
+    
+    st.markdown("""
+                Possuo um conjunto sólido de habilidades técnicas voltadas para **análise de dados**, **automação** e **inteligência artificial**. Minhas principais competências incluem:
+
+                - 📊 **Análise de Dados:** Extração, limpeza e exploração de dados utilizando bibliotecas como **Pandas** e **NumPy**.
+                
+                - 🗃️ **Bancos de Dados SQL:** Construção de consultas avançadas para manipulação e análise de bancos de dados relacionais.
+                
+                - 🐍 **Python:** Desenvolvimento de scripts para **análise de dados**, **automação** de processos e integração de APIs.
+                
+                - ⚡ **Power Query:** Transformação e modelagem de dados de forma ágil, integrando diversas fontes.
+                
+                - 🤖 **Automação com Bots (CRUD):** Criação de bots em **Python** para automatizar operações **CRUD** (Create, Read, Update, Delete).
+                
+                - 📈 **Dashboards Interativos:** Desenvolvimento de visualizações dinâmicas e personalizadas com **Power BI**, **Looker**, **Streamlit** e **Plotly**.
+                
+                - 📚 **Treinamento de Modelos de IA:** Construção e avaliação de modelos de **machine learning** com **Scikit-learn** — incluindo treinamento supervisionado usando bases de treino e teste.
+                
+                - 🧠 **Inteligência Artificial e IA Generativa:**  
+                   * 🤖 Criação de agentes inteligentes e assistentes virtuais utilizando **ChatGPT**.  
+                   * 🛠️ Desenvolvimento de bots de IA utilizando modelos gratuitos da **Hugging Face**.
+                """)
+    
+    col_space, = st.columns(1)
+
+    with col_space:
+        st.markdown("<br><br><br>", unsafe_allow_html=True)
+
+    
+    
+    st.header("Certificados 🎓", divider=True)
     
     
     
@@ -37,8 +69,7 @@ def certificados_skills():
         st.link_button("Acesse.",
                        "https://geekuniversity.com.br/certificado/CG-8D73048E")
         
-    st.divider()
-    
+
     col6,col7,col8,col9 = st.columns(4)
         
     with col6:
@@ -61,14 +92,9 @@ def certificados_skills():
         st.link_button("Acesse.",
                        "https://www.geekuniversity.com.br/certificado/CG-44C999E7")
     
-    st.divider()
     col10, = st.columns(1)
     
     with col10:
         st.image(image_asimov, caption="Trilha Asimov - Aprendendo Python", width=200)
         st.link_button("Acesse.",
                        "https://hub.asimov.academy/validar-certificado/642fdb32-42c9-11ef-92e4-42010a80001b")
-
-
-    
-    
