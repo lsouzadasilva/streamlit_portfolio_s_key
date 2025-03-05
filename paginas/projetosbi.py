@@ -24,7 +24,7 @@ def bi():
 
     with col1:
         st.image(iamge_path_phone, caption="Análise de cobrança", width=200)
-        st.link_button("Acesse",
+        st.link_button("Acesse.",
                     "https://app.powerbi.com/reportEmbed?reportId=ee62c9c1-2df8-448d-bc1e-f922a18848d8&autoAuth=true&ctid=1f301de5-d58a-442c-a282-80a1a993f044")
         
     with col2:

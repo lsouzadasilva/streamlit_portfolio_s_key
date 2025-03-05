@@ -4,7 +4,7 @@ from paginas.projetosbi import bi
 from paginas.streamlit import streamlit
 from paginas.chatbot import chatbot
 from paginas.chatbot_huggingface import chatbot_huggingface
-import streamlit_option_menu 
+from paginas.certificados import certificados_skills
 from streamlit_option_menu import option_menu
 
 
@@ -33,8 +33,8 @@ st.sidebar.divider()
 with st.sidebar:
     paginas = option_menu(
     menu_title = "Menu",
-    options = ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos huggingface"],
-    icons = ["envelope-at-fill", "bar-chart-fill", "graph-up-arrow", "robot", "emoji-wink-fill"],
+    options = ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos huggingface", "Certificados & Skills"],
+    icons = ["envelope-at-fill", "bar-chart-fill", "graph-up-arrow", "robot", "emoji-wink-fill", "award"],
     menu_icon ="cast",
     default_index = 0
     # orientation = "horizontal"  < - Agora
@@ -54,3 +54,5 @@ elif paginas == "Projetos OpenAI":
     chatbot()
 elif paginas == "Projetos huggingface":
     chatbot_huggingface()
+elif paginas == "Certificados & Skills":
+    certificados_skills()
