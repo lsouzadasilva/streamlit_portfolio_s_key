@@ -61,10 +61,7 @@ def certificados_skills():
         st.link_button("Acesse.",
                        "https://www.geekuniversity.com.br/certificado/CG-44C999E7")
     
-    
-    
-    st.header("Certificados Aimov Academy 🥷", divider=True)
-    
+    st.divider()
     col10, = st.columns(1)
     
     with col10:
