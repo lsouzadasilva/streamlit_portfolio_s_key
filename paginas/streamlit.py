@@ -8,7 +8,7 @@ def streamlit():
 
     image_path_plotly_strem = "image/stremlit_plotly.png"
     image_path_fifa = "image/stremlit.png"
-    image_path_streamlit_plotly_pandas = "image/Calcula percentual por registro."
+    image_path_streamlit_plotly_pandas = "image/stremlit_plotly_pandas.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
