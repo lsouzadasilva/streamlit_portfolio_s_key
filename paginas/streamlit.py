@@ -8,6 +8,7 @@ def streamlit():
 
     image_path_plotly_strem = "image/stremlit_plotly.png"
     image_path_fifa = "image/stremlit.png"
+    image_path_streamlit_plotly_pandas = "image/Calcula percentual por registro."
 
 
     # st.sidebar.markdown("**Informações de contato.**")
@@ -24,12 +25,12 @@ def streamlit():
     col13, col14, col15 = st.columns(3)
 
     with col13:
-        st.image(image_path_plotly_strem, caption="Relatorio de Faturamento", width=200)
+        st.image(image_path_streamlit_plotly_pandas, caption="Relatorio de Faturamento", width=200)
         st.link_button("Acesse", 
                        "https://dashapp-test.streamlit.app/")
         
     with col14:
-        st.image(image_path_plotly_strem, caption="Relatorio de Vendas", width=200)
+        st.image(image_path_streamlit_plotly_pandas, caption="Relatorio de Vendas", width=200)
         st.link_button("Acesse",
                        "https://dashappvendas.streamlit.app/")
 
