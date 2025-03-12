@@ -33,7 +33,9 @@ def certificados_skills():
                 
                 - 🌐 **WebApps com Streamlit:** Desenvolvimento de aplicações web interativas e intuitivas para **visualização de dados e modelos de IA**.
                 
-                - 🧠 **Inteligência Artificial e IA Generativa:**  
+                - 🧠 **Inteligência Artificial e IA Generativa:**
+                   * 📥 **RAG (Retrieval-Augmented Generation)** Implementação da técnica RAG para integrar bases internas de conhecimento a modelos de IA como ChatOpenAI, 
+                        permitindo que os assistentes virtuais acessem informações específicas e forneçam respostas mais personalizadas e assertivas.
                    * 🤖 Criação de agentes inteligentes e assistentes virtuais utilizando **ChatGPT**.  
                    * 🛠️ Desenvolvimento de bots de IA utilizando modelos gratuitos da **Hugging Face**.
                 """)
