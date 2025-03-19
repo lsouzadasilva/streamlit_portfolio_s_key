@@ -48,7 +48,7 @@ def streamlit():
     col17, = st.columns(1)
     
     with col17:
-        st.image(image_path_fifa, caption="Geradr de dados fake", width=200)
+        st.image(image_path_fifa, caption="Gerador de Dados Fake", width=200)
         st.link_button("Acesse.",
                        "https://manager-data-fake.streamlit.app/")
         
