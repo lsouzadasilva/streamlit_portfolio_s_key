@@ -49,7 +49,7 @@ def streamlit():
     
     with col17:
         st.image(image_path_fifa, caption="Gerador de Dados Fake", width=200)
-        st.link_button("Acesse.",
+        st.link_button("Acesse",
                        "https://manager-data-fake.streamlit.app/")
         
     
