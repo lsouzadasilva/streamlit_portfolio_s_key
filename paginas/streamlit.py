@@ -43,4 +43,13 @@ def streamlit():
         st.link_button("Acesse",
                        "https://appdashveiculareletricos.streamlit.app/")
         
+    st.divider()
+    
+    col17, = st.columns
+    
+    with col17:
+        st.image(image_path_fifa, caption="Geradr de dados fake", width=200)
+        st.link_button("Acesse.",
+                       "https://manager-data-fake.streamlit.app/")
+        
     
