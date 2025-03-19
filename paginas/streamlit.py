@@ -45,7 +45,7 @@ def streamlit():
         
     st.divider()
     
-    col17, = st.columns
+    col17, = st.columns(1)
     
     with col17:
         st.image(image_path_fifa, caption="Geradr de dados fake", width=200)
