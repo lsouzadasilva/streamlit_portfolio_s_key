@@ -17,6 +17,6 @@ def machine():
                        "https://machinelearning-classi-pro.streamlit.app/")
 
     with col2:
-        st.image(image_path_machine, caption="Predição de Categorias de Classificação Análise de Crédito com Algoritmos de Machine Learning", width=200)
+        st.image(image_path_machine, caption="Classificação de Risco de Crédito: Prevendo o Perfil de Crédito com Machine Learning", width=200)
         st.link_button("Acesse.",
                        "https://classificacao-score-credito.streamlit.app/")
