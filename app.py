@@ -25,7 +25,8 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-image_path_eu = "image/eu.jpg"
+image = Image.open("image/eu.png")
+st.sidebar.image(image, width=120)
 
 st.sidebar.markdown(f"""
     <div style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; 
