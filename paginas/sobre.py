@@ -3,7 +3,7 @@ import webbrowser
 
 def pagina_inicial():
 
-    st.header('Sobre', divider=True)
+    st.header('Sobre Mim', divider=True)
 
     # st.sidebar.markdown("**Informações de contato.**")
 
