@@ -25,12 +25,11 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-image_path_eu = "image/eu.jpg"
 
 st.sidebar.markdown(f"""
     <div style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; 
                  margin: 0 auto 20px auto; border: 2px solid #ccc;">
-        <img src="{image_path_eu}" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="https://github.com/lsouzadasilva/streamlit_portfolio_s_key/blob/main/image/eu.jpg" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
 """, unsafe_allow_html=True)
 
