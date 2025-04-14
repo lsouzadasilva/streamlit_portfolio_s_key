@@ -34,8 +34,6 @@ st.sidebar.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.sidebar.title("Leandro de Souza da Silva")
-st.sidebar.divider()
-
 
 
 
