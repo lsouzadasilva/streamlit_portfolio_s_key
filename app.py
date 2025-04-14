@@ -25,7 +25,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-image_path_eu = "image/eu.png"
+image_path_eu = "image/eu.jpg"
 
 st.sidebar.markdown(f"""
     <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
