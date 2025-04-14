@@ -63,7 +63,7 @@ with col2:
 
 
 with col3:
-    st.sidebar.markdown("""
+    st.markdown("""
         <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2023.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #0A66C2;">
         </a>
