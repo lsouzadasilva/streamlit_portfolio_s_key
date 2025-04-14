@@ -43,22 +43,19 @@ with st.sidebar:
 
 st.sidebar.divider()
 st.write('Informações de Contato')
-col1, col2 = st.sidebar.columns(2)
+st.sidebar.write('Informações de Contato')
 
-    with col1:
-        st.markdown("""
-            <a href="https://github.com/seu-usuario" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #333;">
-            </a>
-            """, unsafe_allow_html=True)
+st.sidebar.markdown("""
+    <a href="https://github.com/seu-usuario" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #333;">
+    </a>
+    """, unsafe_allow_html=True)
 
-    # WhatsApp
-    with col2:
-        st.markdown("""
-            <a href="https://wa.me/19994138086" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #25D366;">
-            </a>
-            """, unsafe_allow_html=True)
+st.sidebar.markdown("""
+    <a href="https://wa.me/19994138086" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #25D366;">
+    </a>
+    """, unsafe_allow_html=True)
 
 
 
