@@ -42,7 +42,7 @@ with st.sidebar:
 )
 
 st.sidebar.divider()
-st.write('Informações de Contato'
+st.write('Informações de Contato')
 col1, col2 = st.sidebar.columns(2)
 
     with col1:
