@@ -42,7 +42,7 @@ st.sidebar.divider()
     # https://icons.getbootstrap.com/ - > icon
 with st.sidebar:
     paginas = option_menu(
-    menu_title = "Navegação",
+    menu_title = "Menu",
     options = ["Sobre mim", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos Scikit-learn", "Projetos huggingface", "Certificados & Skills"],
     icons = ["envelope-at-fill", "bar-chart-fill", "graph-up-arrow", "robot", "cpu", "emoji-wink-fill", "award"],
     menu_icon ="cast",
