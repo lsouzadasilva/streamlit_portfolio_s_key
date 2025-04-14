@@ -43,7 +43,7 @@ st.sidebar.divider()
 with st.sidebar:
     paginas = option_menu(
     menu_title = "Menu",
-    options = ["Sobre mim", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos Scikit-learn", "Projetos huggingface", "Certificados & Skills"],
+    options = ["Sobre", "Projetos em Power BI", "Projetos em Streamlit & Plotly", "Projetos OpenAI", "Projetos Scikit-learn", "Projetos huggingface", "Certificados & Skills"],
     icons = ["envelope-at-fill", "bar-chart-fill", "graph-up-arrow", "robot", "cpu", "emoji-wink-fill", "award"],
     menu_icon ="cast",
     default_index = 0
@@ -81,7 +81,7 @@ with col3:
 
 
 
-if paginas == "Sobre mim":
+if paginas == "Sobre":
     pagina_inicial()
 elif paginas == "Projetos em Power BI":
     bi()
