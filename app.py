@@ -50,7 +50,7 @@ col1, col2, col3 = st.sidebar.columns(3)
 with col1:
     st.markdown("""
         <a href="https://github.com/lsouzadasilva" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #333;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: white;">
         </a>
         """, unsafe_allow_html=True)
 
