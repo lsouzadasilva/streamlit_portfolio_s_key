@@ -25,18 +25,22 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
-image = Image.open("image/eu.png")
-st.sidebar.image(image, width=120)
+import base64
+
+def image_to_base64(path):
+    with open(path, "rb") as img_file:
+        encoded = base64.b64encode(img_file.read()).decode()
+    return f"data:image/png;base64,{encoded}"
+
+img_base64 = image_to_base64("image/eu.png")
 
 st.sidebar.markdown(f"""
     <div style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; 
                  margin: 0 auto 20px auto; border: 2px solid #ccc;">
-        <img src="{image_path_eu}" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="{img_base64}" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
 """, unsafe_allow_html=True)
 
-st.sidebar.title("Leandro de Souza da Silva")
-st.sidebar.divider()
 
 
     # https://icons.getbootstrap.com/ - > icon
