@@ -34,7 +34,7 @@ st.sidebar.markdown(f"""
     </div>
 """, unsafe_allow_html=True)
 
-st.sidebar.title("Navegação")
+st.sidebar.title("Leandro de Souza da Silva")
 st.sidebar.divider()
 
 
