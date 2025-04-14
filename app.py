@@ -28,8 +28,9 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 image_path_eu = "image/eu.jpg"
 
 st.sidebar.markdown(f"""
-    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-        <img src="{image_path_eu}" width="120" style="border-radius: 50%; border: 2px solid #ccc;">
+    <div style="width: 120px; height: 120px; border-radius: 50%; overflow: hidden; 
+                 margin: 0 auto 20px auto; border: 2px solid #ccc;">
+        <img src="{image_path_eu}" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
 """, unsafe_allow_html=True)
 
@@ -37,7 +38,6 @@ st.sidebar.markdown(f"""
 st.sidebar.divider()
 
 
-        
     # https://icons.getbootstrap.com/ - > icon
 with st.sidebar:
     paginas = option_menu(
