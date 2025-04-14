@@ -50,5 +50,3 @@ def pagina_inicial():
         
         Estou sempre em busca de criar soluções inovadoras, traduzindo dados em decisões 
         estratégicas e contribuindo para o crescimento sustentável das organizações.""")
-    
-    st.divider()
