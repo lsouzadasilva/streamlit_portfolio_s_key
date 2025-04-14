@@ -45,7 +45,7 @@ with st.sidebar:
 
 st.sidebar.divider()
 st.sidebar.markdown("**Informações de contato.**")
-col1, col2 = st.sidebar.columns(2)
+col1, col2, col3 = st.sidebar.columns(3)
 
 with col1:
     st.markdown("""
@@ -58,6 +58,14 @@ with col2:
     st.markdown("""
         <a href="https://wa.me/19994138086" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #25D366;">
+        </a>
+        """, unsafe_allow_html=True)
+
+
+with col3:
+    st.sidebar.markdown("""
+        <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo_2023.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #0A66C2;">
         </a>
         """, unsafe_allow_html=True)
 
