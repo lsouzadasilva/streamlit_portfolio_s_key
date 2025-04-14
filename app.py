@@ -25,9 +25,17 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
+image_path_eu = "image/eu.png"
 
-st.sidebar.title("Navegação")
+st.sidebar.markdown(f"""
+    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+        <img src="{image_path_eu}" width="120" style="border-radius: 50%; border: 2px solid #ccc;">
+    </div>
+""", unsafe_allow_html=True)
+
+# st.sidebar.title("Navegação")
 st.sidebar.divider()
+
 
         
     # https://icons.getbootstrap.com/ - > icon
