@@ -49,7 +49,7 @@ col1, col2, col3 = st.sidebar.columns(3)
 
 with col1:
     st.markdown("""
-        <a href="https://github.com/seu-usuario" target="_blank">
+        <a href="https://github.com/lsouzadasilva" target="_blank">
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #333;">
         </a>
         """, unsafe_allow_html=True)
@@ -64,7 +64,7 @@ with col2:
 
 with col3:
     st.markdown("""
-        <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
+        <a href="www.linkedin.com/in/leandro-souza-bi" target="_blank">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="50" style="border-radius: 50%; padding: 5px; background-color: white; border: 2px solid #0A66C2;">
         </a>
         """, unsafe_allow_html=True)
