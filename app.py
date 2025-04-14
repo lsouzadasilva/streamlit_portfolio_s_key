@@ -45,7 +45,7 @@ with st.sidebar:
 
 st.sidebar.divider()
 col1, col2 = st.columns(2)
-st.sidebar.write('Informações de Contato')
+st.sidebar.markdown("**Informações de contato.**")
 
 with col1:
     st.sidebar.markdown("""
