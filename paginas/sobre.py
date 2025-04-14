@@ -57,11 +57,18 @@ def pagina_inicial():
 
     col1, col2 = st.columns(2)
 
-    col1.image("image/in.png", width=40)
-    col1.link_button("Acesse.",
-               "https://br.linkedin.com/in/leandro-souza-313136190")
+    with col1:
+        st.markdown("""
+            <a href="https://github.com/seu-usuario" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #333;">
+            </a>
+            """, unsafe_allow_html=True)
 
-    col2.image("image/wh.png", width=40)
-    col2.link_button("Acesse.",
-                       "https://wa.me/19994138086")
+    # WhatsApp
+    with col2:
+        st.markdown("""
+            <a href="https://wa.me/19994138086" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="50" style="border-radius: 50%; padding: 10px; background-color: #25D366;">
+            </a>
+            """, unsafe_allow_html=True)
 
