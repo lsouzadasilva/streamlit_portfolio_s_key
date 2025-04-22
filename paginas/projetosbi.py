@@ -4,7 +4,7 @@ def bi():
 
     st.header('Relatórios Power BI 📶', divider=True)
 
-    iamge_path_phone = "Dashboard de cobrança.png"
+    iamge_path_phone = "phone_2.png"
     image_path_eletric = "image/eletric.png"
     
 
