@@ -26,6 +26,9 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
 
+
+
+
 st.sidebar.markdown(
     f"""
     <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; 
@@ -36,7 +39,6 @@ st.sidebar.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 st.sidebar.title("Leandro de Souza da Silva")
 
