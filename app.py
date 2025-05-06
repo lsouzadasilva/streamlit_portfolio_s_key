@@ -25,8 +25,18 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
+st.sidebar.markdown(
+    f"""
+    <div style="width: 200px; height: 200px; border-radius: 50%; overflow: hidden; 
+                margin: 0 auto 20px auto; border: 2px solid #ccc;">
+        <img src="https://raw.githubusercontent.com/lsouzadasilva/streamlit_portfolio_s_key/main/image/eu.jpg" 
+             style="width: 100%; height: 100%; object-fit: cover;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
-
+st.sidebar.title("Leandro de Souza da Silva")
 
 
 st.sidebar.markdown(
