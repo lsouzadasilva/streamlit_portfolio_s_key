@@ -7,6 +7,7 @@ def chatbot():
 
 
     image_path_openai= "image/stremlit_openai.png"
+    image_path_openai_groq = "image/stremlit_openai_groq.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
