@@ -42,4 +42,14 @@ def chatbot():
         st.image(image_path_openai, caption="Chat Bot de leitura PDF", width=200)
         st.link_button("Acesse",
                        "https://assistants-read-pdf.streamlit.app/")
+
+
+    st.divider()
+
+    col19, = st.columns(1)
+
+    with col19:
+        st.image(image_path_openai_groq, caption="Oraculo", width=200)
+        st.link_button("Acesse",
+                       "https://publicoraculo.streamlit.app/")
         
