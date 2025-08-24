@@ -8,6 +8,7 @@ def streamlit():
 
     image_path_fifa = "image/stremlit_kaggle.png"
     image_path_streamlit_plotly_pandas = "image/stremlit_plotly_pandas.png"
+    image_path_streamlit_pygwalker = "image/stremlit_plotly_pandas_pygwalker.png"
 
 
     # st.sidebar.markdown("**Informações de contato.**")
@@ -45,11 +46,16 @@ def streamlit():
         
     st.divider()
     
-    col17, = st.columns(1)
+    col17,col18 = st.columns(2)
     
     with col17:
         st.image(image_path_fifa, caption="Gerador de Dados Fake", width=200)
         st.link_button("Acesse",
                        "https://manager-data-fake.streamlit.app/")
+
+    with col18
+        st.image(image_path_streamlit_pygwalker, caption="Analisando dados com PygWalker", width=200)
+        st.link_buton("Acesse",
+                  "https://apprelatoriopygwalker.streamlit.app/")
         
     
