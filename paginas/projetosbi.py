@@ -6,7 +6,7 @@ def bi():
 
     iamge_path_phone = "image/phone_2.png"
     image_path_eletric = "image/car_2.png"
-    image_path_cv = "image/CV"
+    image_path_cv = "image/CV.png"
     
 
     # st.sidebar.markdown("**Informações de contato.**")
