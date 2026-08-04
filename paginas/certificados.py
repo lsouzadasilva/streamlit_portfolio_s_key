@@ -126,7 +126,7 @@ def certificados_skills():
         st.link_button("Acesse.",
                        "https://www.geekuniversity.com.br/certificado/CG-44C999E7")
     
-    col10, col11, col13 = st.columns(3)
+    col10, col11, col13, col_space = st.columns(4)
     
     with col10:
         st.image(image_asimov, caption="Trilha Asimov - Aprendendo Python", width=200)
