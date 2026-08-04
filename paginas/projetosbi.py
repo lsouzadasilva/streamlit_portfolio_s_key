@@ -6,6 +6,7 @@ def bi():
 
     iamge_path_phone = "image/phone_2.png"
     image_path_eletric = "image/car_2.png"
+    image_path_cv = "image/CV"
     
 
     # st.sidebar.markdown("**Informações de contato.**")
@@ -20,7 +21,7 @@ def bi():
 
 
 
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
         st.image(iamge_path_phone, caption="Análise de cobrança", width=300)
@@ -31,4 +32,9 @@ def bi():
         st.image(image_path_eletric, caption="Monitoramento Veiculos Eletricos", width=300)
         st.link_button("Acesse.",
                        "https://app.powerbi.com/view?r=eyJrIjoiZmJkMjEwMmEtNGNlZS00ODI2LWIyYjktMTlmYTM1M2JjM2YxIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+    with col3:
+        st.image(image_path_cv, caption="Meu Currículo", width=300)
+        st.link_button("Acesse.",
+                       "https://app.powerbi.com/view?r=eyJrIjoiYjEwYjdlMzAtM2NhMi00ZjUzLWFmYTItMDVjZTNjZDExZTlkIiwidCI6IjFmMzAxZGU1LWQ1OGEtNDQyYy1hMjgyLTgwYTFhOTkzZjA0NCJ9")
+    
 
